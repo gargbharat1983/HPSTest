@@ -1,0 +1,35 @@
+<div class="row grow w-100">
+  <div class="col-12 py-3 border border-primary" style="background-color: #17a2b8!important;color: white;">
+    <nav class="navbar blue">
+      <!-- logo -->
+      <div class="navbar-brand">
+        <a class="navbar-item">
+          <img src="https://bulma.io/images/bulma-logo.png">
+        </a>
+      </div>
+    </nav>
+
+  </div>
+  <div class="col-2 bg-info py-3">
+    <accordion [options]="options" [menus]="menus">
+    </accordion>
+
+  </div>
+  <div class="main col-10 h-100 py-3">
+    Container Layout
+    <router-outlet></router-outlet>
+  </div>
+</div>
+<div class="row w-100">
+  <div class="col-12 py-3">
+    <footer class="footer" style="background-color: #17a2b8!important;color: white;">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p>
+            Made by Bharat @2020-21
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>

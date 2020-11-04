@@ -1,0 +1,30 @@
+{
+  "menus": [
+    {
+      "name": "Front-end",
+      "iconClass": "fa fa-code",
+      "active": true,
+      "submenu": [
+        { "name": "HTML", "url": "html"
+        },
+        { "name": "CSS", "url": "/"
+        },
+        { "name": "Javascript", "url": "/javascript"
+        }
+      ]
+    },
+    {
+      "name": "Server Side",
+      "iconClass": "fa fa-server",
+      "active": false,
+      "submenu": [
+        { "name": "ASP.Net Core", "url": "#"
+        },
+        { "name": "NodeJS", "url": "#"
+        },
+        { "name": "PHP", "url": "#"
+        }
+      ]
+    }
+  ]
+}
